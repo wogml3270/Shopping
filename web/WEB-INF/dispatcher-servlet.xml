@@ -15,7 +15,7 @@
     <mvc:annotation-driven />
 
     <mvc:resources mapping="/res/**" location="/res/" />
-    <mvc:resources mapping="/images/**" location="file:///C:/upload/images/" />
+<!--    <mvc:resources mapping="/images/**" location="file:///C:/shoppingUpload/images/" />-->
 
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/views/" />
