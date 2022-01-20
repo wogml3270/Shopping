@@ -7,6 +7,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 @RequestMapping("/user")
 public class UserController {
-    @GetMapping(value="/login")
+    @GetMapping("/login")
     public void login(){}
+
+    @GetMapping("/kakaologin")
+    public void kakaologin(){}
 }
