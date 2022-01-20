@@ -15,12 +15,15 @@
                 Kakao.API.request({
                     url:'/v2/user/me',
                     success: res => {
-                        const account_email = res.account_email;
-                        const gender = res.gender;
-                        const birthday = res.birthday;
-                        console.log();
+                        const account_email = res.kakao_account.email;
+                        const gender = res.kakao_account.gender;
+                        const birthday = res.kakao_account.birthday;
+                        console.log(account_email);
+                        console.log(gender);
+                        console.log(birthday);
                     }
                 });
+                window.location.href='/board/main'
             }
         });
     }
