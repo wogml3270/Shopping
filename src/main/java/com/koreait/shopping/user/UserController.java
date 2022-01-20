@@ -4,8 +4,10 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
-import java.util.Map;
+import javax.servlet.http.HttpSession;
+import java.util.HashMap;
 
 @Controller
 @RequestMapping("/user")
@@ -16,9 +18,4 @@ public class UserController {
     @GetMapping("/kakaologin")
     public void kakaologin(){}
 
-    @PostMapping("/kakaologin")
-    public Map<String, Object> kakaologinProc(String access_Token) {
-        String reqURL = "https://kapi.kakao.com/v2/user/me";
-        return null;
-    }
 }
