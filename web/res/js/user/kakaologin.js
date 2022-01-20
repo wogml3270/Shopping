@@ -16,7 +16,9 @@
                     url:'/v2/user/me',
                     success: res => {
                         const account_email = res.account_email;
-                        console.log(account_email);
+                        const gender = res.gender;
+                        const birthday = res.birthday;
+                        console.log();
                     }
                 });
             }
