@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
-body { width: 100%; height: 100vh; }
+body { width: 100%; height: 100vh; font: 0.75em 'Roboto Condensed','Nanum Gothic',sans-serif,Dotum,AppleGothic,sans-serif; }
 ul, ol, li { list-style: none; }
 a { text-decoration: none; }
 
@@ -14,6 +14,7 @@ a { text-decoration: none; }
 
 .color-white { color: #ffffff; }
 .color-black { color: #000000; }
+.color-light-black { color: #353535; }
 .color-gray { color: #808080; }
 .color-silver { color: #c0c0c0; }
 .color-light-gray { color: #cccccc; }
