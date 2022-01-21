@@ -21,4 +21,7 @@ public class UserController {
         String reqURL = "https://kapi.kakao.com/v2/user/me";
         return null;
     }
+
+    @GetMapping("/join")
+    public void join(){}
 }
