@@ -3,5 +3,5 @@
 <%@ taglib prefix="tiles" uri="http://tiles.apache.org/tags-tiles" %>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 <header id="header">
-    <a href="/"><b class="pointer">GRANDETOILE</b></a>
+    <a href="/"><b class="pointer">grandetoile</b></a>
 </header>

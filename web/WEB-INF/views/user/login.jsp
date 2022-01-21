@@ -2,7 +2,7 @@
 <%@ taglib prefix="tiles" uri="http://tiles.apache.org/tags-tiles" %>
 <%@ page contentType="text/html;charset=utf-8" language="java" %>
 <div id="login_wrap">
-    <h2>Login</h2>
+    <h2 class="hidden">Login</h2>
     <form action="/user/login" method="post" id="login_frm">
         <div class="frm_wrap">
             <p class="top_hold">id</p>
@@ -17,6 +17,9 @@
                 <a href=""><span>find id</span></a>
                 <a href=""><span>find password</span></a>
             </div>
+            <picture class="kakao_login pointer">
+                <img src="/res/img/kakao_login_large_wide.png">
+            </picture>
         </div>
     </form>
 </div>
