@@ -128,7 +128,7 @@
                 <div>
                     <label class="display-b-f-l">
                         <span>[선택]sms수신에 동의하십니까?</span>
-                        <input id="smsconsent" name="agree" type="checkbox">동의함
+                        <input id="smsconsent" name="agree" type="checkbox"> 동의함
                     </label>
                 </div>
             </div>
