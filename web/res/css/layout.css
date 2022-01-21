@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* header */
-#header { font-size: 30px; letter-spacing: -0.045em; margin: 20px 0; text-transform: uppercase; }
+#header { color: #353535; font-size: 30px; letter-spacing: -0.045em; margin: 20px 0; text-transform: uppercase; }
 #header_wrap { position: fixed; top: 0; height: 50px; width: 100%; z-index: 99; text-align: center; }
 
 /* contents */

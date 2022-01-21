@@ -31,6 +31,11 @@ a { text-decoration: none; }
 .color-lime { color: #00ff00; }
 .color-olive { color: #808000; }
 
+.container-outer {width: 100%; }
+.container-inner {width: 70%; display: inline-block;}
+
+.display-b-f-l {display: block; float: left;}
+
 .h-10 { height: 10px; }
 .h-20 { height: 20px; }
 .h-30 { height: 30px; }
@@ -98,3 +103,4 @@ a { text-decoration: none; }
 .w-150 { width: 150px; }
 .w-200 { width: 200px; }
 .w-all { width: 100%; }
+.w-auto { width: auto; }
