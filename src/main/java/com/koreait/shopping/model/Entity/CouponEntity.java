@@ -6,7 +6,7 @@ import lombok.Setter;
 @Getter
 @Setter
 public class CouponEntity {
-    private int coupon;
+    private int icoupon;
     private String cpnum;
     private int indexnum;
 }
