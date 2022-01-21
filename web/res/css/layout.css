@@ -10,4 +10,4 @@
 #contents { width: 75%; margin: 0 auto; min-height: calc(100vh - 300px); }
 
 /* footer */
-#footer_wrap { position: absolute; bottom: 0; padding-bottom: 100px; width: 100%; }
+#footer_wrap { position: relative; bottom: 0; padding-bottom: 100px; width: 100%; }
