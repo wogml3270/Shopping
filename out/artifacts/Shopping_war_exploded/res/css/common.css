@@ -1,9 +1,10 @@
 @charset "UTF-8";
 
-* { margin: 0; padding: 0; box-sizing: border-box; }
+* { margin: 0; padding: 0; box-sizing: border-box; font: 0.95em 'Roboto Condensed','Nanum Gothic',sans-serif,Dotum,AppleGothic,sans-serif; font-size: 15px; }
 body { width: 100%; height: 100vh; }
 ul, ol, li { list-style: none; }
 a { text-decoration: none; }
+th, td { margin : 10px 5px 20px 0;}
 
 .bc-white { background-color: #ffffff; }
 .bc-black { background-color: #000000; }
@@ -14,6 +15,7 @@ a { text-decoration: none; }
 
 .color-white { color: #ffffff; }
 .color-black { color: #000000; }
+.color-light-black { color: #353535; }
 .color-gray { color: #808080; }
 .color-silver { color: #c0c0c0; }
 .color-light-gray { color: #cccccc; }
@@ -30,10 +32,21 @@ a { text-decoration: none; }
 .color-lime { color: #00ff00; }
 .color-olive { color: #808000; }
 
-.container-outer {width: 100%; }
-.container-inner {width: 70%; display: inline-block;}
-
 .display-b-f-l {display: block; float: left;}
+
+.font-size-10 { font-size: 10px; }
+.font-size-11 { font-size: 11px; }
+.font-size-12 { font-size: 12px; }
+.font-size-13 { font-size: 13px; }
+.font-size-14 { font-size: 14px; }
+.font-size-15 { font-size: 15px; }
+.font-size-16 { font-size: 16px; }
+.font-size-17 { font-size: 17px; }
+.font-size-18 { font-size: 18px; }
+.font-size-19 { font-size: 19px; }
+.font-size-20 { font-size: 20px; }
+
+.font-bold { font-width: bold;}
 
 .h-10 { height: 10px; }
 .h-20 { height: 20px; }
@@ -92,6 +105,8 @@ a { text-decoration: none; }
 .p-tb-30 { padding: 30px 0; }
 
 .pointer { cursor: pointer; }
+
+.text-aline-center { text-align: center; }
 
 .w-10 { width: 10px; }
 .w-20 { width: 20px; }
