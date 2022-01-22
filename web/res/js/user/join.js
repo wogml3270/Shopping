@@ -45,4 +45,26 @@
 
         })
     }
+    //하기는 했는데 아직 이해못함
+    //https://hianna.tistory.com/433
+    function checkSelectAll(checkbox)  {
+        const agreeall
+            = document.querySelector('input[name="agreeall"]');
+
+        if(checkbox.checked === false)  {
+            agreeall.checked = false;
+        }
+    }
+
+    function selectAll(selectAll)  {
+        const checkboxes
+            = document.getElementsByName('agree');
+
+        checkboxes.forEach((checkbox) => {
+            checkbox.checked = selectAll.checked
+        })
+    }
+
+
+
 }

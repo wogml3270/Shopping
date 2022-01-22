@@ -5,6 +5,7 @@
     <div class="container-inner">
         <div class="text-aline-center m-20">회원가입</div>
         <form action="/user/join" method="post" id="join_frm">
+            <hr>
             <div style="display: flex; justify-content: space-between">
                 <h3 class="font-size-20">기본정보</h3>
                 <p>*필수입력사항</p>
@@ -66,6 +67,7 @@
                 </table>
             </div>
             <div>
+                <hr>
                 <div style="display: flex; justify-content: space-between">
                     <h3 class="font-size-20">추가정보</h3>
                 </div>
@@ -94,12 +96,13 @@
                         </tr>
                         </tbody>
                     </table>
+                    <hr>
                     <div style="display: flex; justify-content: space-between">
-                        <h3>약관</h3>
+                        <h3 class="font-size-20">약관</h3>
                     </div>
                         <div>
                             <label class="display-b-f-l">
-                                <input name="agree" type="checkbox" id="all_agree">
+                                <input type="checkbox" name="agreeall" value="agreeall" onclick="selectAll(this)">
                                 <span>이메일수신 동의(선택), sms수신 동의(선택)에 모두 동의합니다.</span>
                             </label>
                         </div>
@@ -115,7 +118,7 @@
                     <div>
                         <label class="display-b-f-l">
                             <span>이메일수신에 동의하십니까?</span>
-                            <input id="emailconsent" name="agree" type="checkbox" id="email_agree">동의함
+                            <input type="checkbox" name="agree" value="email" onclick="checkSelectAll(this)">동의함
                         </label>
                     </div>
                 <br>
@@ -129,7 +132,7 @@
                 <div>
                     <label class="display-b-f-l">
                         <span>[선택]sms수신에 동의하십니까?</span>
-                        <input id="smsconsent" name="agree" type="checkbox" id="sms_agree"> 동의함
+                        <input type="checkbox" name="agree" value="sms" onclick="checkSelectAll(this)"> 동의함
                     </label>
                 </div>
             </div>
