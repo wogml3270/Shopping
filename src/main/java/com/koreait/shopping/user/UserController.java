@@ -25,6 +25,8 @@ public class UserController {
         return null;
     }
 
-    @GetMapping("/join")
-    public void join(){}
+    @PostMapping("/join")
+    public String joinProc() {
+        return "redirect:/user/login";
+    }
 }
