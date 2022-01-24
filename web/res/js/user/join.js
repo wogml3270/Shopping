@@ -27,7 +27,7 @@
                 alert('비밀번호는 대소문자, 숫자, !, @, _ 조합으로 4~100자 되어야합니다.');
                 e.preventDefault();
             } else if (upw !== upwChk) {
-                alert('비밀번호를 확인해주세요.');
+                alert('비밀번호 확인을 확인해주세요.');
                 e.preventDefault();
             } else if (!nmRegex.test(nm)) {
                 alert('이름은 한글 조합으로 2~10자 여야합니다.');
@@ -42,7 +42,6 @@
                 alert('생년월일 6자리를 확인해주세요.');
                 e.preventDefault();
             }
-
         })
     }
     //하기는 했는데 아직 이해못함
