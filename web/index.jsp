@@ -4,6 +4,6 @@
     <title>$Title$</title>
   </head>
   <body>
-    여기에 수정 내용 적습니다.
+    index page
   </body>
 </html>
