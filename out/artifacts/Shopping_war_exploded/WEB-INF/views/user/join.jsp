@@ -3,7 +3,7 @@
 <%@ page contentType="text/html;charset=utf-8" language="java" %>
 
 <div>
-    <div class="text-aline-center m-20">회원가입</div>
+    <div class="text-aline-center m-20 font-size-30">회원가입</div>
     <form action="/user/join" method="post" id="join_frm">
         <hr>
         <div style="display: flex; justify-content: space-between">
@@ -87,6 +87,24 @@
                         <td>
                             <select name="location" id="location">
                                 <option value="basic">지역</option>
+                                <option value="location1">경기</option>
+                                <option value="location2">서울</option>
+                                <option value="location3">인천</option>
+                                <option value="location4">강원</option>
+                                <option value="location5">충남</option>
+                                <option value="location6">충북</option>
+                                <option value="location7">대전</option>
+                                <option value="location8">경북</option>
+                                <option value="location9">경북</option>
+                                <option value="location10">경남</option>
+                                <option value="location11">대구</option>
+                                <option value="location12">부산</option>
+                                <option value="location13">울산</option>
+                                <option value="location14">전북</option>
+                                <option value="location15">전남</option>
+                                <option value="location16">광주</option>
+                                <option value="location17">제주</option>
+                                <option value="location18">해외</option>
                             </select>
                         </td>
                     </tr>
@@ -98,7 +116,7 @@
                 </table>
                 <hr>
                 <div style="display: flex; justify-content: space-between">
-                    <h3 class="font-size-20">약관</h3>
+                    <h3 class="font-size-20 m-b-10">약관</h3>
                 </div>
                 <div>
                     <label class="display-b-f-l">
@@ -106,12 +124,12 @@
                         <span>이메일수신 동의(선택), sms수신 동의(선택)에 모두 동의합니다.</span>
                     </label>
                 </div>
-                <br>
+
             </div>
             <div>
                 <span class="display-b-f-l">[선택]이메일수신 동의</span>
                 <label>
-                    <textarea readonly style="width: 100%; height:100px; resize: none;">할인쿠폰 및 혜택, 이벤트, 신상품 소식 등 쇼핑몰에서 제공하는 유익한 쇼핑정보를 SMS나 이메일로 받아보실 수 있습니다.</textarea>
+                    <textarea readonly class="m-tb-10" style="width: 100%; height:100px; resize: none;">할인쿠폰 및 혜택, 이벤트, 신상품 소식 등 쇼핑몰에서 제공하는 유익한 쇼핑정보를 SMS나 이메일로 받아보실 수 있습니다.</textarea>
                 </label>
             </div>
 
@@ -121,7 +139,7 @@
                     <input type="checkbox" name="agree" value="email" onclick="checkSelectAll(this)">동의함
                 </label>
             </div>
-            <br>
+
             <div>
                 <span class="display-b-f-l">[선택]sms수신 동의</span>
                 <label>
@@ -136,7 +154,7 @@
                 </label>
             </div>
         </div>
-        <br>
+
         <div class="text-aline-center">
             <input type="submit" value="회원가입" id="join_submit">
         </div>
