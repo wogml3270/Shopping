@@ -56,7 +56,7 @@
                 <tr>
                     <th class="display-b-f-l">성별*</th>
                     <td>
-                        <label class="display-b-f-l"><input type="radio" name="gender" value="1" checked>남성</label>
+                        <label class="display-b-f-l m-r-10"><input type="radio" name="gender" value="1" checked>남성</label>
                         <label class="display-b-f-l"><input type="radio" name="gender" value="2">여성</label>
                     </td>
                 </tr>
@@ -126,8 +126,9 @@
                 </div>
 
             </div>
+            <br>
             <div>
-                <span class="display-b-f-l">[선택]이메일수신 동의</span>
+                <span class="display-b-f-l m-t-10">[선택]이메일수신 동의</span>
                 <label>
                     <textarea readonly class="m-tb-10" style="width: 100%; height:100px; resize: none;">할인쿠폰 및 혜택, 이벤트, 신상품 소식 등 쇼핑몰에서 제공하는 유익한 쇼핑정보를 SMS나 이메일로 받아보실 수 있습니다.</textarea>
                 </label>
@@ -139,22 +140,22 @@
                     <input type="checkbox" name="agree" value="email" onclick="checkSelectAll(this)">동의함
                 </label>
             </div>
-
+            <br>
             <div>
-                <span class="display-b-f-l">[선택]sms수신 동의</span>
+                <span class="display-b-f-l m-tb-10">[선택]sms수신 동의</span>
                 <label>
                     <textarea readonly style="width: 100%; height:100px; resize: none;">할인쿠폰 및 혜택, 이벤트, 신상품 소식 등 쇼핑몰에서 제공하는 유익한 쇼핑정보를 SMS나 이메일로 받아보실 수 있습니다.</textarea>
                 </label>
             </div>
 
             <div>
-                <label class="display-b-f-l">
+                <label class="display-b-f-l m-t-10">
                     <span>[선택]sms수신에 동의하십니까?</span>
                     <input type="checkbox" name="agree" value="sms" onclick="checkSelectAll(this)"> 동의함
                 </label>
             </div>
         </div>
-
+        <br>
         <div class="text-aline-center">
             <input type="submit" value="회원가입" id="join_submit">
         </div>
