@@ -1,5 +1,4 @@
 @charset "UTF-8";
-a { color: #353535; }
 #login_wrap { display: flex; flex-direction: column; align-items: center; text-transform: uppercase; }
 #login_frm { width: 400px; }
 
@@ -16,3 +15,8 @@ a { color: #353535; }
 .login_find_wrap a:hover { color: #cbcbcb; }
 
 .api_login_btn img { height: 50px; width: 49.5%; }
+.facebook_login { border-radius: 5%; }
+
+/* commit test */
+/* commit test #2 */
+/* commit test #3 */
